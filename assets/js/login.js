@@ -63,7 +63,7 @@ $(function () {
         e.preventDefault();
         $.ajax({
             type: 'POST',
-            url: 'http://ajax.frontend.itheima.net/api/login',
+            url: '/api/login',
             //一次性获取表单内的数据
             data: $(this).serialize(),
             success: function (res) {
